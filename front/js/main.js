@@ -7,6 +7,6 @@
     window.addEventListener('resize', setHeight);
 })();
 
-// window.addEventListener("orientationchange", () => {
-//     location.reload(true)
-// });
+window.addEventListener("orientationchange", () => {
+    location.reload(true)
+});
